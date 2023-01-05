@@ -1,0 +1,4 @@
+-- CREATE TABLE table1 ("FIRST NAME" TEXT,"LAST NAME" TEXT, "POINTS" TEXT);
+-- ALTER TABLE table2 ADD id INTEGER;
+-- SELECT * FROM table2 WHERE id = 5 AND login = "dbnm";
+-- INSERT INTO table2 (login, password) VALUES("mnbv", "bfjfj");
