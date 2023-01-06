@@ -1,6 +1,5 @@
--- DROP TABLE groupList;
 -- DROP TABLE IF EXISTS groupList;
--- CREATE TABLE groupList("id"INTEGER UNIQUE, "first name" TEXT, "last name" TEXT, fatheres name, "stars" INTEGER, PRIMARY KEY("id" AUTOINCREMENT));
+-- CREATE TABLE groupList("id"INTEGER UNIQUE, "last name" TEXT, "first name" TEXT, fatheres name, "stars" INTEGER);
 
 --INSERT INTO groupList VALUES(1,"Дьомшина", "Анастасія", "Миколаївна", 335);
 --INSERT INTO groupList VALUES(2,"Войтенко", "Артем", "Анатолійович", 278);
@@ -11,4 +10,12 @@
 --INSERT INTO groupList VALUES(7,"Каштаєв", "Артур", "Віталійович", 186);
 --INSERT INTO groupList VALUES(8,"Нікітченко", "Руслан", "Ігорович", 165);
 --INSERT INTO groupList VALUES(9,"Денисенко", "Ростислав", "Васильович", 126);
---INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126);
+--INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126)
+
+--UPDATE groupList 
+--SET stars = "400" 
+--WHERE id = 4;
+
+-- SELECT * FROM groupList ORDER BY "last name"
+
+-- SELECT * FROM groupList ORDER BY "stars" DESC
