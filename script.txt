@@ -12,12 +12,10 @@
 --INSERT INTO groupList VALUES(9,"Денисенко", "Ростислав", "Васильович", 126);
 --INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126)
 
---UPDATE groupList 
---SET stars = "400" 
---WHERE id = 4;
+--UPDATE groupList SET stars = "400" WHERE id = 4;
 
--- SELECT * FROM groupList ORDER BY "last name"
+-- SELECT * FROM groupList ORDER BY "last name";
 
--- SELECT * FROM groupList ORDER BY "stars" DESC
+-- SELECT * FROM groupList ORDER BY "stars" DESC;
 
 SELECT * FROM groupList ORDER BY "stars" DESC LIMIT 3; 
