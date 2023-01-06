@@ -1,21 +1,24 @@
--- DROP TABLE IF EXISTS groupList;
--- CREATE TABLE groupList("id"INTEGER UNIQUE, "last name" TEXT, "first name" TEXT, fatheres name, "stars" INTEGER);
 
---INSERT INTO groupList VALUES(1,"Дьомшина", "Анастасія", "Миколаївна", 335);
---INSERT INTO groupList VALUES(2,"Войтенко", "Артем", "Анатолійович", 278);
---INSERT INTO groupList VALUES(3,"Судніцин", "Дмитро", "Вікторович", 273);
---INSERT INTO groupList VALUES(4,"Гончаров", "Роман", "Костянтинович", 243);
---INSERT INTO groupList VALUES(5,"Яковенко", "Дмитро", "Володимирович", 217);
---INSERT INTO groupList VALUES(6,"Пискун", "Сергій", "Юрійович", 188);
---INSERT INTO groupList VALUES(7,"Каштаєв", "Артур", "Віталійович", 186);
---INSERT INTO groupList VALUES(8,"Нікітченко", "Руслан", "Ігорович", 165);
---INSERT INTO groupList VALUES(9,"Денисенко", "Ростислав", "Васильович", 126);
---INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126)
+DROP TABLE IF EXISTS groupList;
+CREATE TABLE groupList("id"INTEGER UNIQUE, "last name" TEXT, "first name" TEXT, fatheres name, "stars" INTEGER);
 
---UPDATE groupList SET stars = "400" WHERE id = 4;
+INSERT INTO groupList VALUES(1,"Дьомшина", "Анастасія", "Миколаївна", 335);
+INSERT INTO groupList VALUES(2,"Войтенко", "Артем", "Анатолійович", 278);
+INSERT INTO groupList VALUES(3,"Судніцин", "Дмитро", "Вікторович", 273);
+INSERT INTO groupList VALUES(4,"Гончаров", "Роман", "Костянтинович", 243);
+INSERT INTO groupList VALUES(5,"Яковенко", "Дмитро", "Володимирович", 217);
+INSERT INTO groupList VALUES(6,"Пискун", "Сергій", "Юрійович", 188);
+INSERT INTO groupList VALUES(7,"Каштаєв", "Артур", "Віталійович", 186);
+INSERT INTO groupList VALUES(8,"Нікітченко", "Руслан", "Ігорович", 165);
+INSERT INTO groupList VALUES(9,"Денисенко", "Ростислав", "Васильович", 126);
+INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126);
 
--- SELECT * FROM groupList ORDER BY "last name";
+UPDATE groupList SET stars = NULL WHERE id = 4;
 
--- SELECT * FROM groupList ORDER BY "stars" DESC;
+UPDATE groupList SET stars = 400 WHERE id = 4;
 
-SELECT * FROM groupList ORDER BY "stars" DESC LIMIT 3; 
+SELECT * FROM groupList ORDER BY "last name";
+
+SELECT * FROM groupList ORDER BY "stars" DESC;
+
+SELECT * FROM groupList ORDER BY "stars" DESC LIMIT 3;
