@@ -1,4 +1,14 @@
--- CREATE TABLE table1 ("FIRST NAME" TEXT,"LAST NAME" TEXT, "POINTS" TEXT);
--- ALTER TABLE table2 ADD id INTEGER;
--- SELECT * FROM table2 WHERE id = 5 AND login = "dbnm";
--- INSERT INTO table2 (login, password) VALUES("mnbv", "bfjfj");
+-- DROP TABLE groupList;
+-- DROP TABLE IF EXISTS groupList;
+-- CREATE TABLE groupList("id"INTEGER UNIQUE, "first name" TEXT, "last name" TEXT, fatheres name, "stars" INTEGER, PRIMARY KEY("id" AUTOINCREMENT));
+
+--INSERT INTO groupList VALUES(1,"Дьомшина", "Анастасія", "Миколаївна", 335);
+--INSERT INTO groupList VALUES(2,"Войтенко", "Артем", "Анатолійович", 278);
+--INSERT INTO groupList VALUES(3,"Судніцин", "Дмитро", "Вікторович", 273);
+--INSERT INTO groupList VALUES(4,"Гончаров", "Роман", "Костянтинович", 243);
+--INSERT INTO groupList VALUES(5,"Яковенко", "Дмитро", "Володимирович", 217);
+--INSERT INTO groupList VALUES(6,"Пискун", "Сергій", "Юрійович", 188);
+--INSERT INTO groupList VALUES(7,"Каштаєв", "Артур", "Віталійович", 186);
+--INSERT INTO groupList VALUES(8,"Нікітченко", "Руслан", "Ігорович", 165);
+--INSERT INTO groupList VALUES(9,"Денисенко", "Ростислав", "Васильович", 126);
+--INSERT INTO groupList VALUES(10,"Якубік", "Артем", "Андрійович", 126);
