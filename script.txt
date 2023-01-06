@@ -19,3 +19,5 @@
 -- SELECT * FROM groupList ORDER BY "last name"
 
 -- SELECT * FROM groupList ORDER BY "stars" DESC
+
+SELECT * FROM groupList ORDER BY "stars" DESC LIMIT 3; 
